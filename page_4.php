@@ -8,7 +8,7 @@
 
     <body>
 
-        <?php include('../header.php');  ?>
+        <?php include('header.php');  ?>
 
         <div id="banniere_image">
             <div id="banniere_description">
@@ -32,7 +32,7 @@
     
 
     <footer>
-    <?php include('../footer.php' ); ?> 
+    <?php include('footer.php' ); ?> 
     </footer>
 
     </body>
