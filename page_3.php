@@ -8,7 +8,7 @@
 
     <body>
 
-        <?php include('../header.php');  ?>
+        <?php include('header.php');  ?>
 
         <div id="banniere_image">
             <div id="banniere_description">
@@ -80,7 +80,7 @@ Les recommandations du prophète au sujet du mois de ramadan concernent tous les
     
 
     <footer>
-    <?php include('../footer.php' ); ?> 
+    <?php include('footer.php' ); ?> 
     </footer>
 
     </body>
