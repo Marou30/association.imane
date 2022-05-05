@@ -1,0 +1,150 @@
+@font-face{
+  font-family: 'creamcake';
+  src: url('creamcake.otf');
+  }
+
+@font-face
+{
+    font-family: 'rakyat';
+    src: url('rakyat.otf');
+  src: url('rakyat.ttf') format('truetype')}
+         
+
+/* Elements principaux*/
+
+
+
+   #premiere h1
+{
+  font-family: 'setif';
+  font-size: 2em;
+  font-weight: bold;
+  color: #008037;
+  border-bottom: ridge;
+}
+
+h2
+{ 
+font-style: italic;
+font-weight: bold;
+text-decoration: underline;
+}
+
+
+
+/* Banniere*/
+
+#banniere_image
+{
+  background-image: url('banniere_contact.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1%;
+  
+}
+
+#banniere_description
+{
+  display: inline-block;
+  color: black;
+  padding-left: 5%;
+  vertical-align: middle;
+  text-align: center;
+  width: 100%;
+  font-size: 3em;
+  font-weight: bold;
+  font-family: 'setif', Arial;
+}
+
+/* CORPS */
+
+#premiere
+{
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+input[type=text], textarea, input[type=email] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  margin-right: 0px;
+  margin-left: 0px;
+  resize: vertical;
+}
+label{margin-right: 0px;
+  margin-left: 0px;
+  width: 100%;}
+
+input[type=submit] {
+  background-color: #1255a2;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #1872D9;
+}
+
+.container {
+  /* Ajouter box-sizing */
+  box-sizing : border-box;
+  border-radius:5px;
+  background-color:#f2f2f2;
+  padding:20px;
+  width: 100%;
+  /* redefinition 400 + 2*20 */
+  max-width: 600px;
+  margin:0 auto;
+}
+
+#footer /*FOOTER*/
+{background-color: black;
+display:flex;
+flex-direction:column;
+margin-top: 3%;
+justify-content: center;
+color: white;
+display:flex;
+
+}
+
+.mentions
+{
+  
+  padding-left: 5%;
+   font-family: 'setif';
+  
+}
+
+.copyright
+{
+    text-align:center;
+    
+}
+
+
+
+
+
+/*RESPONSIVE DESIGN*/
+
+@media screen and (max-width: 1280px)
+{
+ body{align-items: center;}
+ 
+
+
+}
